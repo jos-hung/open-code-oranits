@@ -101,13 +101,13 @@ If you use this codebase in your research, please cite the following works:
 Ngoc Hung Nguyen, Nguyen Van Thieu, Quang-Trung Luu, Anh Tuan Nguyen, Senura Wanasekara, Nguyen Cong Luong, Fatemeh Kavehmadavani, Van-Dinh Nguyen  
 arXiv: [2507.19712](https://arxiv.org/abs/2507.19712)
 
-```bibtex
-@article{nguyen2025oranits,
-  title     = {Oranits: Mission Assignment and Task Offloading in Open RAN-based ITS using Metaheuristic and Deep Reinforcement Learning},
-  author    = {Nguyen, Ngoc Hung and Thieu, Nguyen Van and Luu, Quang-Trung and Nguyen, Anh Tuan and Wanasekara, Senura and Luong, Nguyen Cong and Kavehmadavani, Fatemeh and Nguyen, Van-Dinh},
-  journal   = {arXiv preprint arXiv:2507.19712},
-  year      = {2025},
-  url       = {https://arxiv.org/abs/2507.19712}
+
+```
+@article{nguyen2026oranits,
+  author  = {Nguyen, Ngoc Hung and Thieu, Nguyen Van and Luu, Quang-Trung and Nguyen, Anh Tuan and Wanasekara, Senura and Luong, Nguyen Cong and Kavehmadavani, Fatemeh and Nguyen, Van-Dinh},
+  title   = {{ORANITS}: Mission Assignment and Task Offloading in Open RAN-Based ITS Using Metaheuristic and Deep Reinforcement Learning},
+  journal = {IEEE Transactions on Intelligent Transportation Systems},
+  year    = {2025},
 }
 ```
 
