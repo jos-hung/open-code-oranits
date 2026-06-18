@@ -107,7 +107,7 @@ arXiv: [2507.19712](https://arxiv.org/abs/2507.19712)
   author  = {Nguyen, Ngoc Hung and Thieu, Nguyen Van and Luu, Quang-Trung and Nguyen, Anh Tuan and Wanasekara, Senura and Luong, Nguyen Cong and Kavehmadavani, Fatemeh and Nguyen, Van-Dinh},
   title   = {{ORANITS}: Mission Assignment and Task Offloading in Open RAN-Based ITS Using Metaheuristic and Deep Reinforcement Learning},
   journal = {IEEE Transactions on Intelligent Transportation Systems},
-  year    = {2025},
+  year    = {2026},
 }
 ```
 
