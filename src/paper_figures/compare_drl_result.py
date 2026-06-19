@@ -1,9 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-# import scienceplots
+import scienceplots
 import matplotlib
 matplotlib.rcParams['font.size']=11
-# plt.style.use(["science", "ieee"])
+plt.style.use(["science", "ieee"])
 import os
 current_file_path = os.path.abspath(__file__)
 pwd = os.path.dirname(current_file_path) 
@@ -20,12 +20,13 @@ df1['sum_agents'] = df1[['Agent 0', 'Agent 1', 'Agent 2', 'Agent 3', 'Agent 4']]
 df2['sum_agents'] = df2[['Agent 0', 'Agent 1', 'Agent 2', 'Agent 3', 'Agent 4']].sum(axis=1)
 
 min_length = min(80000,min(len(df1), len(df2)))
-df1 = df1.iloc[:min_length]
-df2 = df2.iloc[:min_length]
+df1 = df1.iloc[:min_length].clip(lower=0)
+df2 = df2.iloc[:min_length].clip(lower=0)
 
 window_size = 500
 df1['Max_smoothed'] = df1['Max'].rolling(window=window_size, min_periods=1).mean()
 df2['Max_smoothed'] = df2['Max'].rolling(window=window_size, min_periods=1).mean()
+
 df1['sum_agents_smoothed'] = df1['sum_agents'].rolling(window=window_size, min_periods=1).mean()
 df2['sum_agents_smoothed'] = df2['sum_agents'].rolling(window=window_size, min_periods=1).mean()
 plt.figure(figsize=(10,7.5))
